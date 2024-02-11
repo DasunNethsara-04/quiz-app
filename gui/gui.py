@@ -44,6 +44,9 @@ txt_amount.grid(row=2, column=0, pady=20, padx=15)
 amount_entry = ctk.CTkEntry(home_frame, font=("Ubuntu", 16, "bold"), width=300)
 amount_entry.grid(row=2, column=1, pady=20, padx=15)
 
+# START BUTTON
+ctk.CTkButton(root, text="Start Quiz", font=("Ubuntu", 25), height=50, width=170).pack(pady=50)
+
 
 if __name__ == "__main__":
     root.mainloop()
